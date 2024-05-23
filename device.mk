@@ -94,7 +94,7 @@ PRODUCT_SOONG_NAMESPACES += \
 	vendor/qcom/opensource/commonsys-intf/display
 
 # TWRP - Specifics
-TW_DEVICE_VERSION       := "AspectPower"
+TW_DEVICE_VERSION       := AspectPower
 TW_THEME                := portrait_hdpi
 TW_DEFAULT_LANGUAGE     := en
 TW_USE_TOOLBOX          := true
