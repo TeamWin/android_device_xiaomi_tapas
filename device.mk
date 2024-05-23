@@ -94,7 +94,7 @@ PRODUCT_SOONG_NAMESPACES += \
 	vendor/qcom/opensource/commonsys-intf/display
 
 # TWRP - Specifics
-TW_DEVICE_VERSION       := "chickendrop89"
+TW_DEVICE_VERSION       := "BaranAspect"
 TW_THEME                := portrait_hdpi
 TW_DEFAULT_LANGUAGE     := en
 TW_USE_TOOLBOX          := true
@@ -120,7 +120,7 @@ TW_H_OFFSET := -99
 
 # Set panel refresh rate to 90 Hertz for smoother experience
 # Possible supported frequencies: 30, 60, 90, 120
-TW_FRAMERATE := 90
+TW_FRAMERATE := 120
 
 # Blacklist Goodix fingerprint. There's no reason to include this input in recovery
 TW_INPUT_BLACKLIST := "uinput-goodix"
